@@ -16,7 +16,7 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/df-pitch-2024/blob/main/pitch.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/markjjacob/df-pitch-2024/blob/main/pitch.md)
 
 # DF Transfer Pitch
 
