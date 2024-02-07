@@ -134,11 +134,11 @@ gantt
 
 ## Wie hoch werden die finanziellen Ressourcen für jede:n der beiden Partner:innen kalkuliert?
 
-> Mittweida
-
-> Freiberg: €7500
-- Personalausgaben: 2 x SHK €5400
-- Reisemittel: FG - MW €150
-- Workshop: €1000
-- Wettbewerb: €500
-- Publikationsgebühren: €350
+| Kosten                | Freiberg | Mittweida | Summe   |
+| --------------------- | -------- | :-------: | ------: |
+|  Personal             | €5400    |   €5400   | €10.800 |
+|  Reisemittel          | €150     |   €       | €       |
+|  Workshop             | €1000    |   €       | €       |
+|  Wettbewerb           | €500     |   €       | €       |
+|  Publikationsgebühren | €450     |   €       | €       |
+|  Summe                | €7500    |   €       | €       |
