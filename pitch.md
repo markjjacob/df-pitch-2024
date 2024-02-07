@@ -2,7 +2,7 @@
 author:   Mark Jacob, Marika Claus, Sebastian Zug
 email:    your@email.com
 version:  0.1.0
-language: en
+language: de
 narrator: US English Female
 
 comment:  A pitch for a Digital Fellows transfer project
@@ -20,60 +20,125 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
 # DF Transfer Pitch
 
-## Konzept
+    {{0}}
+![FG Team](/img/Mark_Sebastian.png "Tandem Fellowship Freiberg ⭐⭐⭐⭐⭐")
+![FG Students](/img/FG_Students.png "Wir haben davon profitiert 😃😊😄")
+![MW Students](https://www.hs-mittweida.de/fileadmin/_processed_/2/8/csm_150507_AlexHaus1_DSC_3549_bea5_Gesicht_AS43kl_ad3c22edfe.jpg "Auch wir in Mittweida wollen davon profitieren! 😄😊😃")
+![MW Team](https://www.institute.hs-mittweida.de/fileadmin/_processed_/e/c/csm_20230919-IMG_2907_996b83d15a.jpg "Wir auch 🧑‍🏫👩‍🏫👨‍🏫")
 
-> Welches didaktische Konzept aus einem früheren Fellowship wollen Sie für eine neue Hochschule und/oder einen neuen Fachbereich transferieren?
+    {{1}}
+> **Konzept:** Lehr- / Lernkompetenz für die Vermittlung von fremdsprachlichen Präsentationstechniken auf der Basis von interaktiven OER Materialien
 
-- Lehr- / Lernkompetenz für die Vermittlung von fremdsprachlichen Präsentationstechniken auf der Basis von interaktiven OER Materialien
-- Was wurde bisher umgesetzt?
-- Kurzbeschreibung = didaktisches Szenario, eingesetzte digitale Medienformate
+## Was wurde bisher umgesetzt?
 
-## Lehrveranstaltung
+    {{0-4}}
+> In der LV des Transfer-Gebers: **Einführung in die Fachsprache: Englisch für Mathematik und Informatik** mit insgesamt **20 Studierenden** der Studiengänge **Angewandte Informatik**, **Robotik** und **Angewandte Mathematik** haben die Studierende Fachvortäge vorbereitet und gehalten.
 
-> In welchen Lehrveranstaltungen wird das Konzept im Rahmen des Transfer-Fellowships eingebunden?
+    {{1-4}}
+```mermaid @mermaid
+flowchart LR
+    Was?-->A
+    classDef cyan stroke:#0ff
+    classDef green stroke:#0f0
+    classDef blue stroke:#00f
+    A(1. Technische Beschreibung)
+    A:::cyan-->B(2. Präsentationstechniken)
+    B:::green-->C(3. Digital technology)
+    C:::blue-->D(4. Fachvortrag auf Englisch)
+    D:::cyan
+```
 
-- Name der LV der/des Transfer-Geber:in, Studiengang, Anzahl Studierende (!)
-- Name der LV der/des Transfer-Empfänger:in, Studiengang, Anzahl Studierende (!)
-- Ggf. weitere LVs anderer Akteur:innen
+    {{2-4}}
+```mermaid @mermaid
+flowchart LR
+    Wie?-->A
+    classDef cyan stroke:#0ff
+    classDef green stroke:#0f0
+    classDef blue stroke:#00f
+    A(1. Image describer Tool mit <br> Textanalyse und Peer-Review)
+    A:::cyan-->B(2. Self-study Videos)
+    B:::green-->C(3. LiaScript Training)
+    C:::blue-->D(4. Mini-Konferenz)
+    D:::cyan
+```
 
-## Zielstellungen
+    {{3-4}}
+```mermaid @mermaid
+flowchart LR
+    Wer-->A
+    classDef cyan stroke:#0ff
+    classDef green stroke:#0f0
+    classDef blue stroke:#00f
+    A(1. Sprachlehrer und Informatiker)
+    A:::cyan -->B(2. Sprachenzentrum)
+    B:::green-->C(3. Institut für Informatik)
+    C:::blue-->D(4. Sprachlehrer und Informatiker)
+    D:::cyan
+```
 
-> Welche Zielstellungen verfolgt der Transfer? Welche Ergebnisse stehen am Ende des Transfer-Fellowships zur Verfügung?
+    {{4}}
+??[Student presentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/BerndSchmecka/lia-presentation/main/presentation.md#5)
 
-- Was wird nach dem Transfer-Fellowship anders sein?
-- Woran werden Sie die Zielerreichung messen können? (!)
 
-## Transferaktivitäten
+## In welchen Lehrveranstaltungen wird das Konzept eingebunden?
 
-> Wie wird der Transfer gestaltet? Welche Transferaktivitäten planen Sie?
+```mermaid @mermaid
+flowchart TB
+    A[Name der LV:]
+    A-->|Transfer-Geber| B(Einführung in die Fachsprache: <br> Englisch für Mathematik und Informatik)
+    C[Studiengang:]
+    C-->|Transfer-Geber| D(Bachelor Angewandte Informatik, Diplom Robotik, <br> Diplom Angewandte Mathematik)
+    E[Anzahl Studierende:]
+    E-->|Transfer-Geber| F(Insgesamt: <br> 20 Studierende)
+    B-->|Transfer-Empfängerin| G(Insert name here)
+    D-->|Transfer-Empfängerin| H(Insert subject here)
+    F-->|Transfer-Empfängerin| I(Insert number here)
+```
 
-- Welche Dinge müssen im Rahmen des Transfers angepasst werden (z. B. (fach-)didaktische Elemente, Inhaltsproduktion organisatorische Aspekte, …)
-- Welche Maßnahmen zur Umsetzung sind geplant? (!)
-- Wie tauschen sich die Transfer-Partner:innen aus?
+## Woran werden Sie die Zielerreichung messen können?
 
-## Finanzen
+ - Material for students
 
-> Wie beabsichtigen Sie die bereitgestellten finanziellen Mittel zu verwenden (z. B. für Personalausgaben, Sachkosten, Reisekosten, Publikationsgebühren usw.)? Bitte präzisieren Sie, wie die finanziellen Ressourcen für jede:n der beiden Partner:innen kalkuliert werden.
+  - Videos integrated into the instructions
+  - Instructions for students (using LiaScript)
+  - Questionnaires for students (to be completed before and after implementation)
 
-- Wofür benötigen Sie die finanziellen Mittel (z. B. Personalausgaben, Sachausgaben, Reisemittel, Publikationsgebühren, …)?
-- Bitte geben Sie genau an, wie hoch die finanziellen Ressourcen für jede:n der beiden Partner:innen kalkuliert werden. (!)
+ - Material for staff
 
-### Mittweida
+  - Online course for teachers (Instructions for transfer receivers)
+  - Checklist for teachers (To be prepared for implementation)
+  - Questionnaires for teachers (to be completed before and after implementation)
 
-### Freiberg
+## Welche Maßnahmen zur Umsetzung sind geplant?
 
-## Mehrwert
+```mermaid @mermaid
+gantt
+    title Freiberg Mittweida Digital Fellows Transfer
+    dateFormat YYYY-MM-DD
+    section Proposal
+        Find partner    :done, a1, 2023-12-12, 29d
+        Pitch announced :milestone, done, 2024-01-12
+        Prepare pitch   :done, 2024-01-12, 26d
+        Deliver pitch   :milestone, 2024-02-07
+        Approval        :milestone, crit, 2024-02-09
+    section Personnel
+        SHK hiring    :2024-02-09, 40d
+        SHK contracts :2024-03-20, 40d
+    section Competition
+    section Materials for students
+    section Materials for teachers
+    section Workshop
+    section Documentation
+```
 
-> Welchen Mehrwert haben die Transferaktivitäten für die beiden beteiligten Partner:innen und deren Studierende?
 
-- Mehrwert und Motivation für den/die Transfer-Geber:in
-- Mehrwert und Motivation für den/die Transfer-Empfänger:in
-- Vorteile für die Studierenden in den jeweiligen LV
+## Wie hoch werden die finanziellen Ressourcen für jede:n der beiden Partner:innen kalkuliert?
 
-## Vorbild
+> Mittweida
 
-> Wie können Sie mit Ihrem Transfer-Fellowship als Vorbild für die sächsische Hochschullandschaft wirken? Welche Maßnahmen ergreifen Sie hierfür?
-
-- Warum ist Ihre Idee/Ihr Konzept auch für andere Lehrende in Sachsen interessant? Wie erfahren diese davon?
-- Was geschieht nach Abschluss des Vorhabens mit den Ergebnissen? Wie sorgen Sie dafür, dass die Ergebnisse nach Ende des Fellowships weiter genutzt werden?
-
+> Freiberg: €7500
+- Personalausgaben: 2 x SHK €5400
+- Reisemittel: FG - MW €150
+- Workshop: €1000
+- Wettbewerb: €500
+- Publikationsgebühren: €350
