@@ -167,6 +167,26 @@ flowchart LR
 
 ### Freiberg
 
+```mermaid @mermaid
+gantt
+    title Freiberg Mittweida Digital Fellows Transfer
+    dateFormat YYYY-MM-DD
+    section Proposal
+        Find partner    :done, a1, 2023-12-12, 29d
+        Pitch announced :milestone, done, 2024-01-12
+        Prepare pitch   :done, 2024-01-12, 26d
+        Deliver pitch   :milestone, 2024-02-07
+        Approval        :milestone, crit, 2024-02-09
+    section Personnel
+        SHK hiring    :2024-02-09, 40d
+        SHK contracts :2024-03-20, 40d
+    section Competition
+    section Materials for students
+    section Materials for teachers
+    section Workshop
+    section Documentation
+```
+
 ## Mehrwert
 
 > Welchen Mehrwert haben die Transferaktivitäten für die beiden beteiligten Partner:innen und deren Studierende?

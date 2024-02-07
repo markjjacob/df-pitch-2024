@@ -1,6 +1,6 @@
 <!--
 author:   Mark Jacob, Marika Claus, Sebastian Zug
-email:    your@email.com
+email:    Mark.Jacob@iuz.tu-freiberg.de
 version:  0.1.0
 language: de
 narrator: US English Female
@@ -90,55 +90,52 @@ flowchart TB
     C-->|Transfer-Geber| D(Bachelor Angewandte Informatik, Diplom Robotik, <br> Diplom Angewandte Mathematik)
     E[Anzahl Studierende:]
     E-->|Transfer-Geber| F(Insgesamt: <br> 20 Studierende)
-    B-->|Transfer-Empfängerin| G(Insert name here)
-    D-->|Transfer-Empfängerin| H(Insert subject here)
-    F-->|Transfer-Empfängerin| I(Insert number here)
+    B-->|Transfer-Empfängerin| G(Technisches Englisch)
+    D-->|Transfer-Empfängerin| H(B. Sc. Angewandte Informatik)
+    F-->|Transfer-Empfängerin| I(68 in 3 Kursgruppen)
+    J[Umfang <br> Fachsemester]
+    J-->|Transfer-Geber| K(2 x 2 SWS, 4 ECTS <br> 1. und 2. Semester)
+    K-->|Transfer-Empfängerin| L(4 SWS, 3 ECTS <br> 2. Semester)
 ```
+
+## Welche Zielstellungen verfolgt der Transfer?
+
+1. Verbesserung des **Lernerfolgs/-effekts** im Fachenglischkurs (HSMW)
+2. Bessere **Vernetzung** zwischen den Sprachenzentren der HSMW und TUBAF
+3. Stärkung der **Nachhaltigkeit** des Digital-Fellowship-Projekts „Lehr- / Lernkonzept für die Vermittlung von fremdsprachlichen Präsentationstechniken auf der Basis von interaktiven OER Materialien“
 
 ## Woran werden Sie die Zielerreichung messen können?
 
- - Material for students
-
-  - Videos integrated into the instructions
-  - Instructions for students (using LiaScript)
-  - Questionnaires for students (to be completed before and after implementation)
-
- - Material for staff
-
-  - Online course for teachers (Instructions for transfer receivers)
-  - Checklist for teachers (To be prepared for implementation)
-  - Questionnaires for teachers (to be completed before and after implementation)
+- Dokumentation (LiaScript, Blogs u.a.)
+- Befragungen/Interviews
+- Umfragen
+- Studierendenergebnisse im Rahmen des Transferziels (Videos, Webseiten etc.)
 
 ## Welche Maßnahmen zur Umsetzung sind geplant?
 
-```mermaid @mermaid
-gantt
-    title Freiberg Mittweida Digital Fellows Transfer
-    dateFormat YYYY-MM-DD
-    section Proposal
-        Find partner    :done, a1, 2023-12-12, 29d
-        Pitch announced :milestone, done, 2024-01-12
-        Prepare pitch   :done, 2024-01-12, 26d
-        Deliver pitch   :milestone, 2024-02-07
-        Approval        :milestone, crit, 2024-02-09
-    section Personnel
-        SHK hiring    :2024-02-09, 40d
-        SHK contracts :2024-03-20, 40d
-    section Competition
-    section Materials for students
-    section Materials for teachers
-    section Workshop
-    section Documentation
-```
-
+1. Planung der Kursanpassung bei der Transfer-nehmenden Institution
+2. Bedarfsklärung bei der Transfer-Zielgruppe
+3. Austausche zw. HSMW und TUBAF
+4. gemeinsame Materialiensammlung anlegen
 
 ## Wie hoch werden die finanziellen Ressourcen für jede:n der beiden Partner:innen kalkuliert?
 
-| Kosten                | Freiberg | Mittweida | Summe   |
-| --------------------- | -------- | :-------: | ------: |
-|  Personal             | €5400    |   €5400   | €10.800 |
-|  Reisemittel          | €150     |   €       | €       |
-|  Workshop             | €1000    |   €       | €       |
-|  Wettbewerb           | €500     |   €       | €       |
-|  Publikationsgebühren | €450     |   €       | €       |
-|  Summe                | €7500    |   €       | €       |
+| Kosten                | Freiberg   | Mittweida | Summe          |
+| --------------------- | ---------- | :-------: | -------------: |
+|  Personal             | €5.536,26  | €5.536,26 | €11.172,52     |
+|  Reisemittel          | €500       | €500      | €1.000         |
+|  Sachmittel           | €700       | €700      | €1.400         |
+|  Konferenzbesuch      | €600       | €600      | €1.200         |
+|  Summe                | €7.336,26  | €7.336,26 | **€14,672,52** |
+
+## Welchen Mehrwert haben die Transferaktivitäten für die beiden beteiligten Partner:innen und deren Studierende?
+
+![Marika Claus](https://www.institute.hs-mittweida.de/fileadmin/_processed_/4/5/csm_Marika.Quadrat_2a80b53db8.jpeg "Marika Claus")
+![Mark Jacob](/img/Mark_Jacob_Freiberg.jpg "Mark Jacob")
+
+## Wie können Sie mit Ihrem Transfer Fellowship als Vorbild für die sächsische Hochschullandschaft wirken?
+
+![Vernetzung](https://www.digital-kompass.de/sites/default/files/styles/2_1_680x340/public/2019-05/adobestock_231658961_austausch_und_vernetzung_w5000.jpg?h=e61280fc&itok=sOsBYbKM "Vernetzung")
+![OPAL](https://tu-dresden.de/studium/ressourcen/bilder/opal/opal-logo.png/@@images/451489de-0da6-40ce-8542-1ec56b5cfb27.png "OPAL")
+![Moodle](https://assets-global.website-files.com/61add382915b0a19b218de1e/64b1438b7fbf2206988c4db6_640px-Moodle-1-740x380.png "Moodle")
+![OER](https://segu-geschichte.b-cdn.net/wp-content/uploads/2018/10/oer-300x200.jpeg "OER")
