@@ -122,11 +122,11 @@ flowchart TB
 
 | Kosten                | Freiberg   | Mittweida | Summe          |
 | --------------------- | ---------- | :-------: | -------------: |
-|  Personal             | €5.536,26  | €5.536,26 | €11.172,52     |
+|  Personal             | €5.536,26  | €5.536,26 | €11.072,52     |
 |  Reisemittel          | €500       | €500      | €1.000         |
 |  Sachmittel           | €700       | €700      | €1.400         |
 |  Konferenzbesuch      | €600       | €600      | €1.200         |
-|  Summe                | €7.336,26  | €7.336,26 | **€14,772,52** |
+|  Summe                | €7.336,26  | €7.336,26 | **€14,672,52** |
 
 ## Welchen Mehrwert haben die Transferaktivitäten für die beiden beteiligten Partner:innen und deren Studierende?
 
